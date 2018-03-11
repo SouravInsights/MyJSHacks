@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Animation #2 - Basic image gallery</title>
+  
+  
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+</head>
+
+<body>
+    <h2>JavaScript is <span class='hl'>Awesome</h2>
+
+  <div class="controls">
+    <label for="base">Chage My Color</label>
+    <input id="base" type="color" name="base" value="#F24173">
+  </div>
+        
+  <h3>| Check out some of my cool <span class='hl'>JavaScript</span> projects |</h3>
+
+  <div class="container">
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/CSS-Variables/" title="CSS Variables">
+    
+     <img src="1.jpg">
+          
+      </a>
+          
+     </div>
+        
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/drumkit/" title="Drum Kit Project">
+    
+     <img src="2.jpg">
+          
+      </a>
+          
+     </div>
+
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/JS-can-Speak/" title="Speech Synthesis with JS">
+    
+     <img src="3.jpg">
+          
+      </a>
+          
+     </div>
+            
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/MyTimer/" title="JS Timer">
+    
+     <img src="4.jpg">
+          
+      </a>
+          
+     </div>
+
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/CatchMyMole/." title="Catch My Mole GAME">
+    
+     <img src="5.jpg">
+          
+      </a>
+          
+     </div>
+            
+     <div class="holder">
+         
+      <a href="https://souravinsights.github.io/Custom-VideoPlayer/." title="Custom Video Player with JS">
+    
+     <img src="6.jpg">
+          
+      </a>
+          
+     </div>
+          
+</div>
+        <div>
+        </div>
+         <div>
+        </div>
+               
+
+        
+        
+<footer id="colophon" class="site-footer" role="contentinfo">
+            <i class="fa fa-twitter-square" style="font-size:36px"></i>
+            
+            <i class="fa fa-medium" style="font-size:36px"></i>
+            
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+            
+            <i class="fa fa-github-square" style="font-size:36px"></i>
+            
+            <i class="fa fa-facebook-square" style="font-size:36px"></i>
+ 
+            <h4>| Designed By-<span class='hl'> Sourav </span> | </h4>
+ 
+</footer>
+<!-- #colophon -->
+        
+        
+        
+        
+    <script>
+    const inputs = document.querySelectorAll('.controls input');
+    function handleUpdate() {
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+  </script>
+  
+
+</body>
+
+</html>

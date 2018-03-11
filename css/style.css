@@ -1,0 +1,44 @@
+body {
+      text-align: center;
+      background: #193549;
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 30px;
+    }
+
+input {
+      width:100px;
+    }
+
+:root {
+      --base: #F24173;
+    }
+    img {
+
+    }
+    .hl {
+      color: var(--base);
+    }
+
+.container {
+  width: 700px;
+  height: 380px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.holder {
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+  float: left;
+}
+
+.holder img {
+  width:100%;
+  height: 100%;
+  
+  transition: opacity 1s, transform 0.7s        ease-in;
+}
