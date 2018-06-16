@@ -13,5 +13,4 @@ play the corresponding sound that is associated with the key (Demo).
 Can Speak. Here I’ve used the browser’s speech synthesis API to create a text to speech app 
 (Demo)
 
-# JavaScript Is [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> 
+[![forthebadge](http://forthebadge.com/badges/built-with-love.svg)](http://forthebadge.com)
