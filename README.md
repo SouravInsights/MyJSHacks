@@ -5,7 +5,7 @@ Collection of some of my cool JS Projects.
 Here, there are 6 JavaScript projects, where I've used some modern JavaScript concepts and No Frameworks, No Libraries, No Boilerplate has been used in these projects.
 
 - The first project is CSS Variables. Here I’ve done a 
-simple animation using CSS Variables that can be updated by JavaScript (Demo).
+simple animation using CSS Variables that can be updated by JavaScript. [Demo](https://souravinsights.github.io/CSS-Variables/)
 - The second 
 project is JS Drumkit. Here, when you hit the corresponding key on your keyboard it's going to 
 play the corresponding sound that is associated with the key (Demo).
